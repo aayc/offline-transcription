@@ -1,0 +1,1 @@
+pyinstaller transcribe.py
