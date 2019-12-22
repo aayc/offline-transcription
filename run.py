@@ -32,6 +32,3 @@ if __name__ == "__main__":
         f.write(transcription)
 
     print("Successfully wrote transcription to", args.output)
-
-
-
