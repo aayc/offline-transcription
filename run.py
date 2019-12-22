@@ -1,4 +1,5 @@
 import argparse
+import os
 import speech_recognition as sr
 import time
 from os.path import splitext
@@ -18,8 +19,12 @@ def transcribe(infile):
         print("Transcribing...")
         print("Since this process is happening offline, it could take quite a while...")
         transcription = R.recognize_sphinx(audio)
+        
+        if os.path.exists("tmp-transcript.wav"):
+            os.remove("tmp-transcript.wav")
+
         print("Elapsed (s): ", time.time() - start_time)
-        return transcription
+    return transcription
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
