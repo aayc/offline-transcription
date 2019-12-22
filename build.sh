@@ -1,1 +1,1 @@
-pyinstaller transcribe.py
+pyinstaller -F transcribe.py
