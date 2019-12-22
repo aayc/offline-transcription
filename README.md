@@ -23,3 +23,9 @@ From executable:
 transcribe <input_file>.(mp3|wav|m4a|etc.) --output <output_file>.txt
 transcribe my_podcast.mp3 --output my_podcast.txt
 ```
+
+From Python source:
+
+```
+python3 transcribe.py my_podcast.mp3 --output my_podcast.txt
+```
