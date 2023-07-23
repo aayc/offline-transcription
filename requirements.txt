@@ -2,5 +2,5 @@ altgraph==0.16.1
 macholib==1.11
 pocketsphinx==0.1.15
 pydub==0.23.1
-PyInstaller==3.5
+PyInstaller==3.6
 SpeechRecognition==3.8.1
